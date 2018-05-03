@@ -2,8 +2,6 @@ package docotel.com.libscan.merchantqr;
 
 import android.text.TextUtils;
 
-import com.docotel.mvisaconsumer.helper.CrcHelper;
-import com.docotel.mvisaconsumer.helper.baseutils.LoggerHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +9,7 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
-import static com.docotel.mvisaconsumer.validator.CreditCardValidator.format;
+import static docotel.com.libscan.merchantqr.CreditCardValidator.format;
 
 public class MerchantQr {
     @Getter private String qr;
